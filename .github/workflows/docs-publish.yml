@@ -33,6 +33,6 @@ jobs:
       - name: Generating apidocs
         run: |
           cd githubhttptest
-          ./mvnw clean javadoc:javadoc
+          ./mvnw -v
           cd ..
      
